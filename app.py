@@ -8,7 +8,7 @@ app.secret_key = 'Python_Authenticate'
 server = 'LAPTOP-SH2LV5E6\SQLEXPRESS'
 database = 'Odbc'
 username = 'sa'
-password = 'Henrique16'
+password = 'YourAutenticationBank'
 conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+password)
 
 
